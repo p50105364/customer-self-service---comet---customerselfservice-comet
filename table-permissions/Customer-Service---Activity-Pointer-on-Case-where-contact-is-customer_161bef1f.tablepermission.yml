@@ -1,0 +1,14 @@
+adx_append: true
+adx_appendto: false
+adx_contactrelationship: account_primary_contact
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: account
+adx_entityname: Customer Service - Activity Pointer on Case where contact is customer
+adx_entitypermission_webrole:
+- 04afce8c-d4de-ed11-a7c6-000d3a854be1
+- 4b84e25d-08da-ed11-a7c6-000d3a854be1
+adx_entitypermissionid: 9c6b71f6-e0de-ed11-a7c6-000d3a854be1
+adx_read: true
+adx_scope: 756150001
+adx_write: true

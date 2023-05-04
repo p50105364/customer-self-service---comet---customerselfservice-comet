@@ -1,0 +1,13 @@
+adx_append: false
+adx_appendto: false
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: account
+adx_entityname: account - Read and Write
+adx_entitypermission_webrole:
+- a3f75015-eadc-ed11-a7c6-000d3a854be1
+adx_entitypermissionid: 0bf58fe9-0ae4-ed11-8846-000d3a854be1
+adx_parententitypermission: 8c27bcec-c5e4-ed11-8846-000d3a854be1
+adx_read: true
+adx_scope: 756150000
+adx_write: false

@@ -1,0 +1,9 @@
+adx_allcolumnpermissions:
+- 746610000
+- 746610001
+- 746610002
+adx_columnpermissionprofile_webrole:
+- 4a84e25d-08da-ed11-a7c6-000d3a854be1
+adx_columnpermissionprofileid: 065418f7-5edf-ed11-a7c6-000d3a854be1
+adx_profilename: Sireesha
+adx_tablename: account

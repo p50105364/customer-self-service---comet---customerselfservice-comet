@@ -1,0 +1,44 @@
+{% extends 'Two Column Layout' %}
+
+{% block sidebar %}
+  {% assign weblinkset_id = page.adx_navigation.id %}
+  {% if weblinkset_id %}
+    {% assign nav = weblinks[page.adx_navigation.id] %}
+    {% if nav %}
+      <div class=list-group>
+        {% for link in nav.weblinks %}
+          <a class=list-group-item href={{ link.url }}>
+            {{ link.name }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+
+<div class="list-group">
+      <h2 style="color: #47259c;">Latest News</h2>
+      <p>The latest policy updates and announcements about the scheme and the news that affects it:</p>
+      <div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 2px; margin: 0px; min-height: 5px; background: rgb(70, 48, 179);">
+      </div>
+      <br>
+{% assign nav = weblinks["Latest News"] %}
+    {% if nav %}
+      <div class=list-group>
+        {% for link in nav.weblinks %}
+        <li>
+          <a href={{ link.url }}>
+            {{ link.name }}
+          </a>
+          </li>
+        {% endfor %}
+      </div>
+    {% endif %}
+</div>
+
+{% endblock %}
+
+{% block content %}
+  <div id="mainContent" class = "wrapper-body" role="main">
+    {% include 'Page Copy' %}
+  </div>
+{% endblock %}

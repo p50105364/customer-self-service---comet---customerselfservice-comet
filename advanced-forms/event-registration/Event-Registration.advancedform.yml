@@ -1,0 +1,32 @@
+adx_authenticationrequired: true
+adx_editexistingrecordpermitted: true
+adx_editexpiredmessage: >-
+  [
+
+    {
+
+      "LCID": 1033,
+
+      "Value": ""
+
+    },
+
+    {
+
+      "LCID": 1036,
+
+      "Value": ""
+
+    }
+
+  ]
+adx_multiplerecordsperuserpermitted: true
+adx_name: Event Registration
+adx_progressindicatorenabled: false
+adx_progressindicatorignorelaststep: true
+adx_progressindicatorposition: 756150000
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150000
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: true
+adx_webformid: fc7e23df-528d-4a8c-8dd0-f3ed513a9f91

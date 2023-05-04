@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: false
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: annotation
+adx_entityname: Manager-contact_Attachment
+adx_entitypermission_webrole: []
+adx_entitypermissionid: d371af3d-e3dc-ed11-a7c6-000d3a854be1
+adx_parententitypermission: 401b0937-e3dc-ed11-a7c6-000d3a854be1
+adx_parentrelationship: contact_Annotations
+adx_read: false
+adx_scope: 756150003
+adx_write: false

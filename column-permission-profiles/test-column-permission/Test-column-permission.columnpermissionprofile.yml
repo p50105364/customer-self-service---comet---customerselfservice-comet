@@ -1,0 +1,8 @@
+adx_allcolumnpermissions:
+- 746610000
+- 746610001
+adx_columnpermissionprofile_webrole:
+- 4b84e25d-08da-ed11-a7c6-000d3a854be1
+adx_columnpermissionprofileid: 9c6bc933-10e4-ed11-8846-000d3a854be1
+adx_profilename: Test column permission
+adx_tablename: account

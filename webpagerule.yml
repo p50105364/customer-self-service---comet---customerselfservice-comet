@@ -1,0 +1,46 @@
+- adx_name: Restrict Manage Members
+  adx_right: 2
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole:
+  - a3f75015-eadc-ed11-a7c6-000d3a854be1
+  adx_webpageaccesscontrolruleid: 1ba6d66e-ecdc-ed11-a7c6-000d3a854be1
+  adx_webpageid: 72661a65-9446-97b1-5f33-d080b1566234
+  statecode: 1
+  statuscode: 2
+- adx_name: Grant Change to Content
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole: []
+  adx_webpageaccesscontrolruleid: 4584e25d-08da-ed11-a7c6-000d3a854be1
+- adx_name: Restrict Read to Create Case
+  adx_right: 2
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole:
+  - 4b84e25d-08da-ed11-a7c6-000d3a854be1
+  adx_webpageaccesscontrolruleid: 4684e25d-08da-ed11-a7c6-000d3a854be1
+  adx_webpageid: 2984e25d-08da-ed11-a7c6-000d3a854be1
+- adx_name: Grant Change to Events
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole: []
+  adx_webpageaccesscontrolruleid: 4784e25d-08da-ed11-a7c6-000d3a854be1
+- adx_name: Grant Change to Administrators
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole:
+  - 4a84e25d-08da-ed11-a7c6-000d3a854be1
+  adx_webpageaccesscontrolruleid: 4884e25d-08da-ed11-a7c6-000d3a854be1
+  adx_webpageid: 3d84e25d-08da-ed11-a7c6-000d3a854be1
+- adx_right: 2
+  adx_scope: 2
+  adx_webpageaccesscontrolrule_webrole:
+  - 534ef8b6-e2dc-ed11-a7c6-000d3a854be1
+  adx_webpageaccesscontrolruleid: aaf26641-bb0e-7cdf-74cb-b5ad2f782695
+  adx_webpageid: 72661a65-9446-97b1-5f33-d080b1566234
+- adx_name: Enable All Permission -contact
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole:
+  - 534ef8b6-e2dc-ed11-a7c6-000d3a854be1
+  adx_webpageaccesscontrolruleid: d4c13ec9-f7dc-ed11-a7c6-000d3a854be1
+  adx_webpageid: 72661a65-9446-97b1-5f33-d080b1566234

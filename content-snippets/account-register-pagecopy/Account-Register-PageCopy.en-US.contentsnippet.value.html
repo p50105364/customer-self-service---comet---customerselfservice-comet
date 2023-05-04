@@ -1,0 +1,29 @@
+<script>
+
+	changeRegistraionPageUI();
+  function changeRegistraionPageUI()
+  {
+     $(window).load(function() {
+ // Code to add custom Date Of Birth Field
+$('#ContentContainer_MainContent_MainContent_ShowUserName').next().next().after('<div class="form-group"><label class="col-sm-4 control-label"><span id="ContentContainer_MainContent_MainContent_dob"><span class="xrm-editable-text xrm-attribute"><span class="xrm-attribute-value">Date Of Birth</span></span></span></label><div class="col-sm-8"><input id="ContentContainer_MainContent_MainContent_dob" class="form-control" aria-required="true"></div></div>');
+
+// Code to add custom SSN Field
+$('#ContentContainer_MainContent_MainContent_ShowUserName').next().next().after('<div class="form-group"><label class="col-sm-4 control-label"><span id="ContentContainer_MainContent_MainContent_ssn"><span class="xrm-editable-text xrm-attribute"><span class="xrm-attribute-value">NHS Number</span></span></span></label><div class="col-sm-8"><input id="ContentContainer_MainContent_MainContent_NHS" class="form-control" aria-required="true"></div></div>');
+
+//Code to Add Custom 'Register' Button
+        $('#SubmitButton').after('<input type="submit" name="ctl00$ctl00$ContentContainer$MainContent$MainContent$mySubmitButton"  value="Register" id="mySubmitButton" class="btn btn-primary">');      
+//Hide the original       
+ $('#SubmitButton').hide();
+
+        $("#mySubmitButton").click(function()
+        {
+            var nhsVal = document.getElementById("ContentContainer_MainContent_MainContent_NHS").value;
+            alert(nhsVal);            
+            localStorage.setItem("NHS", nhsVal);
+            $('#SubmitButton').click();    
+            return false;
+       });
+});
+}
+
+</script>

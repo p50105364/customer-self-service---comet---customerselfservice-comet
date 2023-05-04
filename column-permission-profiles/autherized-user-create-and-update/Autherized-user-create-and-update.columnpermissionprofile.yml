@@ -1,0 +1,8 @@
+adx_allcolumnpermissions:
+- 746610000
+- 746610002
+adx_columnpermissionprofile_webrole:
+- a3f75015-eadc-ed11-a7c6-000d3a854be1
+adx_columnpermissionprofileid: 577b84b3-0ce4-ed11-8846-000d3a854be1
+adx_profilename: Autherized user create and update
+adx_tablename: account

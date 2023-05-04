@@ -1,0 +1,17 @@
+adx_entitypermission_webrole:
+- RecordId: 71fa3ac7-32df-ed11-a7c6-000d3a854be1
+  DisplayName: $RELATIONSHIP$adx_entitypermission:0000e357-08da-ed11-a7c6-000d3a854be1:adx_webrole
+  CheckSum: 
+  IsDeleted: true
+- RecordId: 71fa3ac7-32df-ed11-a7c6-000d3a854be1
+  DisplayName: $RELATIONSHIP$adx_entitypermission:0500e357-08da-ed11-a7c6-000d3a854be1:adx_webrole
+  CheckSum: 
+  IsDeleted: true
+- RecordId: 71fa3ac7-32df-ed11-a7c6-000d3a854be1
+  DisplayName: $RELATIONSHIP$adx_entitypermission:0700e357-08da-ed11-a7c6-000d3a854be1:adx_webrole
+  CheckSum: 
+  IsDeleted: true
+- RecordId: 71fa3ac7-32df-ed11-a7c6-000d3a854be1
+  DisplayName: $RELATIONSHIP$adx_entitypermission:0c00e357-08da-ed11-a7c6-000d3a854be1:adx_webrole
+  CheckSum: 
+  IsDeleted: true

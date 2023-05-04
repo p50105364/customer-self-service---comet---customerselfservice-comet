@@ -1,0 +1,14 @@
+.SocialNetWorkingContainer .articleContent {
+    padding-left: 20px;
+}
+.articleContent, .articleFooter, .articleHeading {
+    padding: 10px 10px 10px 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}

@@ -1,0 +1,22 @@
+<style>
+#completeReg{
+  color:white;margin-top:50px;margin-left:20px;
+}
+</style>
+<div id="completeReg">
+  <h2>Complete Registration</h2>
+  <p>In this step we verify your invitation code.
+    <br>In the next step you’ll be asked to log in.
+    <br>
+    <br>Please click “Continue” to verify invitation code and continue to login registration.
+</p>
+</div>
+<script>
+  $(document).ready(function(){
+    $("#content-container").removeClass("container").addClass("fluid-container signinpage redeem");
+    $("#content-container #content").addClass("container");
+    $("#content-container #content .page-content").addClass("page-content row justify-content-between align-items-center");
+    $("#content-container #content .page-copy").addClass("page-copy col-md-6 col-lg-7 g-mb-100");
+    $("#submit-redeem-invitation").text("Continue");
+  });
+</script>
